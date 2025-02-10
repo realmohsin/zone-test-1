@@ -47,7 +47,7 @@ const isValidDate = (date) => date !== null && date !== undefined && dayjs(date)
 
 // ----------------------------------------------------------------------
 
-export function today(template) {
+function today(template) {
   return dayjs(new Date()).startOf('day').format(template);
 }
 
@@ -56,7 +56,7 @@ export function today(template) {
 /**
  * @output 17 Apr 2022 12:00 am
  */
-export function fDateTime(date, template) {
+function fDateTime(date, template) {
   if (!isValidDate(date)) {
     return 'Invalid date';
   }
@@ -82,7 +82,7 @@ export function fDate(date, template) {
 /**
  * @output 12:00 am
  */
-export function fTime(date, template) {
+function fTime(date, template) {
   if (!isValidDate(date)) {
     return 'Invalid date';
   }
@@ -108,7 +108,7 @@ export function fTimestamp(date) {
 /**
  * @output a few seconds, 2 years
  */
-export function fToNow(date) {
+function fToNow(date) {
   if (!isValidDate(date)) {
     return 'Invalid date';
   }
@@ -121,7 +121,7 @@ export function fToNow(date) {
 /**
  * @output boolean
  */
-export function fIsBetween(inputDate, startDate, endDate) {
+function fIsBetween(inputDate, startDate, endDate) {
   if (!isValidDate(inputDate) || !isValidDate(startDate) || !isValidDate(endDate)) {
     return false;
   }
@@ -174,7 +174,7 @@ export function fIsSame(startDate, endDate, unitToCompare) {
  * Same month: 25 - 26 Apr 2024
  * Same year: 25 Apr - 26 May 2024
  */
-export function fDateRangeShortLabel(startDate, endDate, initial) {
+function fDateRangeShortLabel(startDate, endDate, initial) {
   if (!isValidDate(startDate) || !isValidDate(endDate) || fIsAfter(startDate, endDate)) {
     return 'Invalid date';
   }

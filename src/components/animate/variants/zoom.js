@@ -2,7 +2,7 @@ import { transitionExit, transitionEnter } from './transition';
 
 // ----------------------------------------------------------------------
 
-export const varZoom = (direction, options) => {
+const varZoom = (direction, options) => {
   const distance = options?.distance || 720;
   const transitionIn = options?.transitionIn;
   const transitionOut = options?.transitionOut;

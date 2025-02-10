@@ -3,7 +3,7 @@ import { z as zod } from 'zod';
 
 // ----------------------------------------------------------------------
 
-export const schemaHelper = {
+const schemaHelper = {
   /**
    * Phone number
    * Apply for phone number input.

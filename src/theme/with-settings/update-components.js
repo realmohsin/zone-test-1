@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 
-export function updateComponentsWithSettings(settingsState) {
+function updateComponentsWithSettings(settingsState) {
   const MuiCssBaseline = {
     styleOverrides: {
       html: {

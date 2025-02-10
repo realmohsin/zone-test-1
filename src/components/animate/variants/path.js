@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 
-export const varPath = (props) => ({
+const varPath = (props) => ({
   animate: {
     fillOpacity: [0, 0, 1],
     pathLength: [1, 0.4, 0],

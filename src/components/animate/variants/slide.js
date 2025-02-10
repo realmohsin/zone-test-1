@@ -2,7 +2,7 @@ import { transitionExit, transitionEnter } from './transition';
 
 // ----------------------------------------------------------------------
 
-export const varSlide = (direction, options) => {
+const varSlide = (direction, options) => {
   const distance = options?.distance || 160;
   const transitionIn = options?.transitionIn;
   const transitionOut = options?.transitionOut;

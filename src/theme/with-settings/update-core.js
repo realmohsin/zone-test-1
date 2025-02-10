@@ -11,7 +11,7 @@ import { primaryColorPresets, secondaryColorPresets } from './color-presets';
  * @primaryColor
  */
 
-export function updateCoreWithSettings(theme, settingsState) {
+function updateCoreWithSettings(theme, settingsState) {
   const { direction, fontFamily, primaryColor = 'default' } = settingsState ?? {};
 
   const isDefaultPrimaryColor = primaryColor === 'default';

@@ -7,7 +7,7 @@ import { carouselClasses } from '../classes';
 
 // ----------------------------------------------------------------------
 
-export function CarouselThumb({ sx, src, index, selected, className, ...other }) {
+function CarouselThumb({ sx, src, index, selected, className, ...other }) {
   return (
     <ThumbRoot
       selected={selected}

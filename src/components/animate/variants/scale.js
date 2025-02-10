@@ -2,7 +2,7 @@ import { transitionExit, transitionEnter } from './transition';
 
 // ----------------------------------------------------------------------
 
-export const varScale = (direction, options) => {
+const varScale = (direction, options) => {
   const transitionIn = options?.transitionIn;
   const transitionOut = options?.transitionOut;
 

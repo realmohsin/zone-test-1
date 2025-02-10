@@ -153,7 +153,7 @@ const NumberButtonsRoot = styled('div')(({ theme }) => ({
 
 // ----------------------------------------------------------------------
 
-export function CarouselArrowNumberButtons({
+function CarouselArrowNumberButtons({
   sx,
   options,
   slotProps,

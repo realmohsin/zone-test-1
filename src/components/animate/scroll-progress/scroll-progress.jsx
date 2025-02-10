@@ -15,7 +15,7 @@ export const scrollProgressClasses = {
   linear: createClasses('scroll__progress__linear'),
 };
 
-export function ScrollProgress({
+function ScrollProgress({
   sx,
   size,
   portal,

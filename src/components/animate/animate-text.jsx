@@ -33,7 +33,7 @@ const srOnlyStyles = {
   clip: 'rect(0, 0, 0, 0)',
 };
 
-export function AnimateText({
+function AnimateText({
   sx,
   variants,
   className,

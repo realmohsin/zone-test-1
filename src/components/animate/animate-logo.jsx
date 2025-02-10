@@ -8,7 +8,7 @@ import { Logo } from '../logo';
 
 // ----------------------------------------------------------------------
 
-export const AnimateLogoZoom = forwardRef((props, ref) => {
+const AnimateLogoZoom = forwardRef((props, ref) => {
   const { logo, slotProps, sx, ...other } = props;
 
   return (
@@ -84,7 +84,7 @@ const LogoZoomSecondaryOutline = styled(m.span)(({ theme }) => ({
 
 // ----------------------------------------------------------------------
 
-export const AnimateLogoRotate = forwardRef((props, ref) => {
+const AnimateLogoRotate = forwardRef((props, ref) => {
   const { logo, sx, slotProps, ...other } = props;
 
   return (

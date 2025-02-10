@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 
-export const carouselBreakpoints = {
+const carouselBreakpoints = {
   xs: '(min-width: 0px)',
   sm: '(min-width: 600px)',
   md: '(min-width: 900px)',

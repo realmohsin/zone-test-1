@@ -5,7 +5,7 @@ import { useScroll } from 'framer-motion';
 
 // ----------------------------------------------------------------------
 
-export function useScrollProgress(target = 'document') {
+function useScrollProgress(target = 'document') {
   const elementRef = useRef(null);
 
   const options = { container: elementRef };

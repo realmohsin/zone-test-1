@@ -106,7 +106,7 @@ export const pageLinks = [
   },
 ];
 
-export const navData = [
+const navData = [
   { title: 'Home', path: '/' },
   { title: 'Components', path: paths.components },
   { title: 'Pages', path: paths.pages, children: pageLinks },

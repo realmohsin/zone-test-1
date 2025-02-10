@@ -8,7 +8,7 @@ import { CarouselSlide } from './carousel-slide';
 
 // ----------------------------------------------------------------------
 
-export const CarouselThumbs = forwardRef((props, ref) => {
+const CarouselThumbs = forwardRef((props, ref) => {
   const { children, slotProps, options, sx, className, ...other } = props;
 
   const axis = options?.axis ?? 'x';

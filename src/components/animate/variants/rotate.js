@@ -2,7 +2,7 @@ import { transitionExit, transitionEnter } from './transition';
 
 // ----------------------------------------------------------------------
 
-export const varRotate = (direction, options) => {
+const varRotate = (direction, options) => {
   const deg = options?.deg || 360;
   const transitionIn = options?.transitionIn;
   const transitionOut = options?.transitionOut;

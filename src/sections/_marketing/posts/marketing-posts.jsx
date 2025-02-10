@@ -14,7 +14,7 @@ import { PostTime } from '../../blog/post-time';
 
 // ----------------------------------------------------------------------
 
-export function MarketingPosts({ posts, sx, ...other }) {
+function MarketingPosts({ posts, sx, ...other }) {
   return (
     <>
       <Box

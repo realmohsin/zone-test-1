@@ -8,7 +8,7 @@ import LinearProgress from '@mui/material/LinearProgress';
 
 // ----------------------------------------------------------------------
 
-export function LoadingScreen({ portal, sx, ...other }) {
+function LoadingScreen({ portal, sx, ...other }) {
   const PortalWrapper = portal ? Portal : Fragment;
 
   return (

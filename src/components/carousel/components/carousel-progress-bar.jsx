@@ -6,7 +6,7 @@ import { carouselClasses } from '../classes';
 
 // ----------------------------------------------------------------------
 
-export function CarouselProgressBar({ sx, value, className, ...other }) {
+function CarouselProgressBar({ sx, value, className, ...other }) {
   return (
     <ProgressBarRoot
       className={mergeClasses([carouselClasses.progress.root, className])}

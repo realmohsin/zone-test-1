@@ -62,7 +62,7 @@ export const FacebookIcon = forwardRef((props, ref) => {
 
 // ----------------------------------------------------------------------
 
-export const GithubIcon = forwardRef((props, ref) => {
+const GithubIcon = forwardRef((props, ref) => {
   const { sx, ...other } = props;
 
   return (
@@ -112,7 +112,7 @@ export const TwitterIcon = forwardRef((props, ref) => {
 
 // ----------------------------------------------------------------------
 
-export const GoogleIcon = forwardRef((props, ref) => {
+const GoogleIcon = forwardRef((props, ref) => {
   const { sx, ...other } = props;
 
   return (

@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 
-export const varBgColor = (colors, options) => ({
+const varBgColor = (colors, options) => ({
   animate: {
     background: colors,
     ...options,
@@ -16,7 +16,7 @@ export const varBgColor = (colors, options) => ({
 
 // ----------------------------------------------------------------------
 
-export const varBgKenburns = (direction, options) => {
+const varBgKenburns = (direction, options) => {
   const transition = {
     duration: 5,
     ease: 'easeOut',
@@ -69,7 +69,7 @@ export const varBgKenburns = (direction, options) => {
 
 // ----------------------------------------------------------------------
 
-export const varBgPan = (direction, colors, options) => {
+const varBgPan = (direction, colors, options) => {
   const gradient = (deg) => `linear-gradient(${deg}deg, ${colors.join(', ')})`;
 
   const transition = {
